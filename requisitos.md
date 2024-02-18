@@ -20,6 +20,6 @@ Dado o escopo global da aplicação, pede-se desenvolver cada subtarefa visando,
 
 Observações
 
-- Os passos acima são um guia, mas não obrigatórios. Podem desenvolver uma lógica diferente, que atenda ao solicitado.
+- Os passos acima são um guia, mas não obrigatórios. Podem desenvolver uma lógica diferente, que atenda ao solicitado. ✅
 
-- Podem separar as funcionalidades em arquivos, de acordo com a necessidade que houver.
+- Podem separar as funcionalidades em arquivos, de acordo com a necessidade que houver. ✅
