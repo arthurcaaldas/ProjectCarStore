@@ -2,7 +2,7 @@
 
 const enviarEmail = require('./enviar-email');
 
-// lista (array) de emails criada, onde estão armazenados os emails dos clientes com as flags de decisao para recebimento de email.
+// Requisito: lista (array) de emails criada, onde estão armazenados os emails dos clientes com as flags de decisao para recebimento de email.
 const cadastro = [
   { nome: "cliente01", email: "client01@example.com", flag: true },
   { nome: "cliente02", email: "client02@example.com", flag: true },
@@ -13,7 +13,7 @@ const cadastro = [
   { nome: "cliente07", email: "client07@example.com", flag: true }
 ];
 
-// Criar uma função para enviar o e-mail para cada um dos clientes da lista, levando em conta a sua decisão sobre receber comunicações de marketing.
+// Requisito: Criar uma função para enviar o e-mail para cada um dos clientes da lista, levando em conta a sua decisão sobre receber comunicações de marketing.
 
 let cadastroValidado = [];
 
@@ -26,7 +26,7 @@ function validarFlag() {
 }  
 validarFlag();
 
-// Criar uma função para verificar o dia da semana atual, que será levado em conta para o disparo dos emails.
+// Requisito: Criar uma função para verificar o dia da semana atual, que será levado em conta para o disparo dos emails.
 
 function verificadorDiaSemana() {
   const hoje = new Date();
@@ -34,7 +34,7 @@ function verificadorDiaSemana() {
   return diaSemana === 1;
 }
 
-// Criar uma função para montar o corpo do e-mail a ser enviado.
+// Requisito: Criar uma função para montar o corpo do e-mail a ser enviado.
 
 function enviarEmailSegunda() {
   const diaSemana = verificadorDiaSemana();
