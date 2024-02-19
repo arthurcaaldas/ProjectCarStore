@@ -24,7 +24,9 @@
 
 <h4>Veja o projeto em execução </h4>
 
-<a href="https://leticiavargas.github.io/PlayStore/" target="_blank">
+![GIF](carStore.gif) 
+
+<a href="#" target="_blank">
   <img src="https://img.shields.io/badge/Acessar%20Projeto%20-%20web-green">
 </a>
 
